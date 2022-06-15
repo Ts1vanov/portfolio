@@ -1,0 +1,106 @@
+:root {
+    /*main*/
+    --red: #E63946;
+    --main-bg:#F1FAEE;
+    --light-blue:#A8DADC;
+    --blue:#457B9D;
+    --dark-blue:#1D3557;
+}
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+.clear {
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+hr {
+    margin-top: 2em;
+}
+
+body{
+    background-color: var(--main-bg);
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2 {
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+.main {
+    margin-left: 260px;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+header {
+    background-color: var(--blue);
+    width: fit-content;
+    height: 500px;
+    border-radius: 0px 15px 15px 0px;
+    top: 60px;
+    position: fixed;
+    padding: 30px;
+}
+header a{
+    color: var(--light-blue);
+}
+.nav {
+    margin-top: 80%;
+    line-height: 2rem;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.social-links {
+    margin-top: 130px;
+    margin-left:-10px;
+}
+
+#about {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 5em;
+}
+
+#about p {
+    margin-left: 2em;
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+.about-content p {
+    width: 70%;
+}
+
+.author-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: url(img/ohlyov.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.project {
+    width: 60%;
+    margin: auto;
+    margin-top: 5em;
+}
+.project a {
+    margin-left: 1em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#contact {
+    float: right;
+    margin: 2em 2em 5em 0em;
+}
