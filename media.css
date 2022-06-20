@@ -1,4 +1,4 @@
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 500px) {
     header {
         display: flex;
         justify-content: space-between;
@@ -19,6 +19,7 @@
         width: 150px;
     }
     .nav {
+        max-width: 70%;
         display: flex;  
         height: fit-content;
         margin-top: 5%;
