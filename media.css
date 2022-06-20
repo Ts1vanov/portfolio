@@ -19,7 +19,7 @@
         width: 150px;
     }
     .nav {
-        max-width: 70%;
+        max-width: 50%;
         display: flex;  
         height: fit-content;
         margin-top: 5%;
