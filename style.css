@@ -34,7 +34,6 @@ h1, h2 {
 .main {
     margin-left: 260px;
     margin-top: 50px;
-    margin-right: 10%;
 }
 header {
     background-color: var(--blue);
@@ -47,6 +46,13 @@ header {
 }
 header a{
     color: var(--light-blue);
+}
+.logo {
+    background-image: url(img/TsLogo.svg);
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    margin-left: 1em;
 }
 .nav {
     margin-top: 80%;
@@ -99,8 +105,72 @@ header a{
     font-size: 1em;
     font-weight: 500;
 }
+.column-preview-card_img {
+    width: 420px;
+    height: 230px;
+    background-image: url(img/3-column\ previe\ card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:auto;
+}
+.rating-component_img {
+    width: 300px;
+    height: 300px;
+    background-image: url(img/interactive\ rating\ component.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.nft-card_img {
+    width: 250px;
+    height: 400px;
+    background-image: url(img/nft\ preview\ card.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin:auto;
 
+}
+.social-proof-section_img {
+    width: 400px;
+    height: 200px;
+    background-image: url(img/social\ proof\ section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:auto;
+}
 #contact {
     float: right;
     margin: 2em 2em 5em 0em;
 }
+
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    background-color: var(--red);
+    position: fixed;
+    justify-content: center;
+    bottom: 1em;
+    right: 1em;
+    border-radius: 100%;
+    display: none;
+}
+.arrow {
+	width: 1vmin;
+	height: 1vmin;
+	box-sizing: border-box;
+	position: absolute;
+	left: 35%;
+	top: 50%;
+	transform: rotate(-45deg);
+}	
+	.arrow:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		border-width: .8vmin .8vmin 0 0;
+		border-style: solid;
+		border-color: #fafafa;
+		display: block;
+
+	}
+
