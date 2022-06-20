@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 630px) {
     header {
         display: flex;
         justify-content: space-between;
@@ -8,7 +8,7 @@
         border-radius: 0px;
         top: 0px;
         position: relative;
-        padding: 10px;
+        padding: 10px 0px;
     }
     .logo {
         width: 90px;
@@ -23,6 +23,7 @@
         display: flex;  
         height: fit-content;
         margin-top: 5%;
+        margin-right: 0px;
     }
     .nav a {
         padding-left: 1em;
@@ -37,6 +38,7 @@
 }
     #about {
         width: 90%;
+        margin: auto;
     }
     .project {
         width: 95%;
@@ -44,8 +46,8 @@
     #contact {
         float: none;
         padding-top: 1em;
+        margin-top: 3em;
         border-top: 1px solid #1C6EA4;
-        margin :auto;
     }
     .back-to-top {
         display: initial;
