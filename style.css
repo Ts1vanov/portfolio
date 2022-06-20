@@ -106,39 +106,11 @@ header a{
     font-size: 1em;
     font-weight: 500;
 }
-.column-preview-card_img {
-    width: 420px;
-    height: 230px;
-    background-image: url(img/3-column\ previe\ card.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin:auto;
+.project img {
+    max-width: 100%;
+    height: auto;
 }
-.rating-component_img {
-    width: 300px;
-    height: 300px;
-    background-image: url(img/interactive\ rating\ component.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-.nft-card_img {
-    width: 250px;
-    height: 400px;
-    background-image: url(img/nft\ preview\ card.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    margin:auto;
 
-}
-.social-proof-section_img {
-    width: 400px;
-    height: 200px;
-    background-image: url(img/social\ proof\ section.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin:auto;
-}
 #contact {
     float: right;
     margin: 2em 2em 5em 0em;
