@@ -23,7 +23,10 @@
         height: fit-content;
         margin-top: 5%;
     }
-
+    .nav a {
+        padding-left: 1em;
+        font-size: 0.8em;
+    }
     .social-links {
         display: none;
     }
