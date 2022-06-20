@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 200px) {
     header {
         display: flex;
         justify-content: space-between;
