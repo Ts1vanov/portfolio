@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
     header {
         display: flex;
         justify-content: space-between;
@@ -22,9 +22,11 @@
         display: flex;  
         height: fit-content;
         margin-top: 5%;
+        background-color: aliceblue;
     }
     .nav a {
         padding-left: 1em;
+        font-size: 0.7em;
     }
     .social-links {
         display: none;
