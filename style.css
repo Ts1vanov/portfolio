@@ -55,10 +55,11 @@ header a{
     margin-left: 1em;
 }
 .nav {
+    width: fit-content;
     margin-top: 80%;
     line-height: 2rem;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .social-links {
