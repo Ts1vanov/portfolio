@@ -95,7 +95,9 @@ header a{
     background-position: top;
     background-size: cover;
 }
-
+#projects {
+	margin-top: 1.5em;
+}
 .project {
     width: 60%;
     margin: auto;
