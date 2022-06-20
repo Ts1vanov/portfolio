@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--blue);
+        width: 100%;
+        height: 90px;
+        border-radius: 0px;
+        top: 0px;
+        position: relative;
+        padding: 10px;
+    }
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+    .author-img {
+        height: 150px;
+        width: 150px;
+    }
+    .nav {
+        display: flex;  
+        height: fit-content;
+        margin-top: 5%;
+    }
+    .nav a {
+        padding-left: 1em;
+    }
+    .social-links {
+        display: none;
+    }
+.main {
+    margin-left: 0.5em;
+}
+    #about {
+        width: 90%;
+    }
+    .project {
+        width: 95%;
+    }
+    #contact {
+        float: none;
+        padding-top: 1em;
+        margin-top: 3em;
+        border-top: 1px solid #1C6EA4;
+    }
+    .back-to-top {
+        display: initial;
+    }
+  }
